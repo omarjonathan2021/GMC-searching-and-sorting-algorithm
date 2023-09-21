@@ -18,7 +18,8 @@
 //     arr[j + 1] = key
 
 
-//Insertion sort algorithm using Javascript 
+//Insertion sort algorithm using Javascript
+// Initialize the two(2) counters we'd be making use of thus; (i) and (j): 
 function insertionSort(arr) {
     const n = arr.length;
     for (let i = 1; i < n; i++) {
